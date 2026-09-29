@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>REX Squirrel API Documentation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h1>REX Squirrel API</h1>
+      <p class="subtitle">Engine scripting reference</p>
+    </div>
+    <div class="search-wrap">
+      <input type="search" id="search" placeholder="Search…  (Ctrl+K)" autocomplete="off" spellcheck="false">
+    </div>
+    <nav class="nav" id="nav">
+      <div class="loading">Loading <code>api.d.nut</code>…</div>
+    </nav>
+    <div class="sidebar-footer">
+      <span id="stats"></span>
+    </div>
+  </aside>
+
+  <main class="content" id="content">
+    <div class="welcome">
+      <h1>REX Squirrel API Documentation</h1>
+      <p>This reference is generated at load time from <code>api.d.nut</code>.</p>
+      <p>Pick a class, enum, or global table from the sidebar to begin.</p>
+      <p class="hint">
+        <kbd>Ctrl</kbd><kbd>K</kbd> &mdash; focus search &nbsp;·&nbsp;
+        <kbd>Esc</kbd> &mdash; clear search
+      </p>
+    </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
